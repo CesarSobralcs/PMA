@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+        	
+
+body{
+
+    width: 100%;
+    height: 100vh;
+    background-color:#3168a8;
+} 
+
+
+main{
+
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:center;
+    padding-top:80px;
+}
+
+
+form{
+
+    background-color:transparent;
+    width:100%;
+    max-width:400px;
+    margin-top:30px;
+    padding:10px;
+}
+
+
+main>h1{
+
+    font-family:sans-serif;
+    color: aliceblue;
+    letter-spacing:20px;
+    font-size:calc(60% + 4vmin);
+}
+
+.card>input{
+
+    display:block;
+    width:100%;
+    padding:15px;
+    border:solid 3px #cccccc;
+    border-radius:3px;
+    margin-top:5px;
+    
+}
+
+
+
+.cardtwo{
+
+    margin-top:20px;
+}
+
+.cardtwo>input{
+
+    display:block;
+    width:100%;
+    padding:15px;
+    border:solid 3px #cccccc;
+    border-radius:3px;
+    margin-top:5px;
+}
+
+.card>label{
+
+    font-family:sans-serif;
+    font-size:calc(60% + 1.5vmin);
+    color: aliceblue;
+   
+}
+
+.cardtwo>label{
+
+    font-family:sans-serif;
+    font-size:calc(60% + 1.5vmin);
+    color: aliceblue;
+   
+}
+
+
+.hl{
+
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:center;
+    gap:20px;
+}
+
+.bu{
+
+    background-color:#1e3857;
+    width:100%;
+    margin-top:20px;
+    padding:18px;
+    border:none;
+    border-radius:5px;
+}
+
+
+
+
+.bu>p{
+
+    font-family:sans-serif;
+    font-size:calc(60% + 1.5vmin);
+    color: aliceblue;
+}
+
+.hl>p{
+
+    font-family:sans-serif;
+    font-size:calc(60% + 0.9vmin);
+    color: aliceblue;
+}
+
+
+.hl>p>a{
+
+    font-family:sans-serif;
+    font-size:calc(60% + 0.9vmin);
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+}
+
+
+.yyu{
+
+    background-color:#f0ad4e;
+    width:100%;
+    max-width:330px;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    margin-top:20px;
+}
+
+.yyu{
+
+    font-family:sans-serif;
+    font-size:calc(60% + 1.5vmin);
+    color: aliceblue;
+
+}
+
+
+@media screen and (max-width: 500px) {
+    main{
+
+        padding:5px;
+        margin-top:10vh;
+    }
+  }
